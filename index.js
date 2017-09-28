@@ -20,6 +20,13 @@ app.get('/api/*',(req,res) => {
 				title: "Fight Song",
 				genre: "pop",
 				released: 2014
+			},
+			{
+				id:3,
+				artist: "Michael Jackson",
+				title: "Annie Are You Ok",
+				genre: "pop",
+				released: 1987
 			}
 		]);
 });
