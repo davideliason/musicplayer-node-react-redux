@@ -23,5 +23,6 @@
   "homepage": "https://github.com/davideliason/musicplayer-node-react-redux#readme",
   "dependencies": {
     "express": "^4.15.5"
-  }
+  },
+  "proxy":"http://localhost:3001"
 }
