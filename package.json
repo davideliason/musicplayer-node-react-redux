@@ -1,0 +1,27 @@
+{
+  "name": "musicplayer-node-react-redux",
+  "version": "1.0.0",
+  "description": "react redux UI for music data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideliason/musicplayer-node-react-redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "node"
+  ],
+  "author": "David Eliason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davideliason/musicplayer-node-react-redux/issues"
+  },
+  "homepage": "https://github.com/davideliason/musicplayer-node-react-redux#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
