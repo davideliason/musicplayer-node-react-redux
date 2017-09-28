@@ -2,8 +2,10 @@ const express  	= require('express');
 const path 		= require('path');
 const app 		= express();
 
+// server static files from React app
 app.use(express.static(path.join(__dirname,'client/public')));
 
+// all API endpoints
 app.get('/api/music',(req,res) => {
 	// res.send('hello world');
 	res.json([
@@ -31,6 +33,7 @@ app.get('/api/music',(req,res) => {
 		]);
 });
 
+// handles any request not specifically for API music
 app.get('*',(req,res) => {
 	res.sendFile(path.join(__dirname + '/client/public/index.html'));
 });
